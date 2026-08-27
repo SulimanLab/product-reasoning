@@ -4,18 +4,20 @@
     "name": "SulimanLab",
     "url": "https://github.com/SulimanLab"
   },
-  "description": "Agent skills for product reasoning.",
+  "description": "Agent skills for product reasoning and natural Arabic writing.",
   "plugins": [
     {
       "name": "product-reasoning",
       "source": "./",
-      "description": "Teach coding agents to reason about product outcomes and consequential decisions before implementation.",
+      "description": "Product reasoning plus natural Arabic writing skills for coding and product agents.",
       "category": "productivity",
       "keywords": [
         "product-design",
         "ux",
         "coding-agents",
-        "product-reasoning"
+        "product-reasoning",
+        "arabic-writing",
+        "localization"
       ]
     }
   ]
