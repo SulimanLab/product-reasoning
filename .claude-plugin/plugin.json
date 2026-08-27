@@ -1,7 +1,7 @@
 {
   "name": "product-reasoning",
-  "version": "1.0.0",
-  "description": "Product reasoning for coding agents: outcomes, decisions, timelines, reversibility, prototypes, and product QA before implementation.",
+  "version": "1.1.0",
+  "description": "Agent skills for product reasoning and natural Arabic writing: outcomes, decisions, product QA, and Arabic that reads as Arabic rather than translated English.",
   "author": {
     "name": "SulimanLab",
     "url": "https://github.com/SulimanLab"
@@ -14,10 +14,13 @@
     "ux",
     "coding-agents",
     "prototype",
+    "arabic-writing",
+    "arabic-localization",
     "claude-code",
     "codex"
   ],
   "skills": [
-    "./skills/product-reasoning"
+    "./skills/product-reasoning",
+    "./skills/arabic-natural-writing"
   ]
 }
