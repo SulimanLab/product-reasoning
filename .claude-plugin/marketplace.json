@@ -1,0 +1,22 @@
+{
+  "name": "sulimanlab",
+  "owner": {
+    "name": "SulimanLab",
+    "url": "https://github.com/SulimanLab"
+  },
+  "description": "Agent skills for product reasoning.",
+  "plugins": [
+    {
+      "name": "product-reasoning",
+      "source": "./",
+      "description": "Teach coding agents to reason about product outcomes and consequential decisions before implementation.",
+      "category": "productivity",
+      "keywords": [
+        "product-design",
+        "ux",
+        "coding-agents",
+        "product-reasoning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "product-reasoning",
+  "version": "1.0.0",
+  "description": "Product reasoning for coding agents: outcomes, decisions, timelines, reversibility, prototypes, and product QA before implementation.",
+  "author": {
+    "name": "SulimanLab",
+    "url": "https://github.com/SulimanLab"
+  },
+  "repository": "https://github.com/SulimanLab/product-reasoning",
+  "license": "MIT",
+  "keywords": [
+    "product-design",
+    "product-reasoning",
+    "ux",
+    "coding-agents",
+    "prototype",
+    "claude-code",
+    "codex"
+  ],
+  "skills": [
+    "./skills/product-reasoning"
+  ]
+}
