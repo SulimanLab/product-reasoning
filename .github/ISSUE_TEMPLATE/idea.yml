@@ -1,0 +1,48 @@
+name: Behavior improvement
+description: Propose a change that fixes a repeatable product-reasoning failure mode.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: The strongest proposals start from an observed failure mode, not a preferred wording change.
+  - type: textarea
+    id: failure
+    attributes:
+      label: Failure mode
+      description: What does the agent repeatedly get wrong today?
+      placeholder: When asked to..., the agent tends to...
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired behavior
+      description: What should the agent do instead?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: Give one concrete before/after or task example.
+    validations:
+      required: true
+  - type: textarea
+    id: generality
+    attributes:
+      label: Why this belongs in the public skill
+      description: Explain why the rule is useful across products rather than being project-specific.
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Likely layer
+      options:
+        - Root execution path
+        - Reference guidance
+        - Example only
+        - Installation/tooling
+        - Not sure
+    validations:
+      required: true

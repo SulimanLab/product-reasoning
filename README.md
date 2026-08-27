@@ -1,5 +1,8 @@
 # Product Reasoning
 
+[![validate](https://github.com/SulimanLab/product-reasoning/actions/workflows/validate.yml/badge.svg)](https://github.com/SulimanLab/product-reasoning/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 An open-source agent skill that helps coding agents make **product decisions before they make screens**.
 
 It is designed for Claude Code, Codex, and other agents that support the Agent Skills format.
@@ -81,8 +84,11 @@ That architecture is deliberate: less always-loaded context, less instruction di
 .claude-plugin/
   plugin.json
   marketplace.json
-.github/workflows/
-  validate.yml
+.github/
+  ISSUE_TEMPLATE/
+  pull_request_template.md
+  workflows/
+    validate.yml
 scripts/
   validate.py
 skills/product-reasoning/
@@ -90,8 +96,10 @@ skills/product-reasoning/
   references/
   examples/
 ACKNOWLEDGEMENTS.md
+CODE_OF_CONDUCT.md
 CONTEXT.md
 CONTRIBUTING.md
+SECURITY.md
 LICENSE
 ```
 
@@ -123,13 +131,17 @@ This is an independent project and is not affiliated with Matt Pocock, Anthropic
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Changes should fix a repeatable agent failure mode, sharpen behavior, or improve installability without bloating always-loaded context.
+Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+Changes should fix a repeatable agent failure mode, sharpen behavior, or improve installability without bloating always-loaded context.
 
 Run the repository checks with:
 
 ```bash
 python scripts/validate.py
 ```
+
+For sensitive reports, follow [SECURITY.md](SECURITY.md) rather than posting exploit details publicly.
 
 ## License
 
